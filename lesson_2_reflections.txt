@@ -3,6 +3,7 @@ What happens when you initialize a repository? Why do you need to do it?
 	A .git file is created that contains metadata used by git to manage the repository. 
 	We need to initialize it so that we can tell git to keep track of all the changes made.
 
+
 How is the staging area different from the working directory and the respository? What value 
 do you think it offers?
 
@@ -11,4 +12,27 @@ do you think it offers?
 	you would like to add to your repository. The value offered by this feature is that it allows the 
 	user to select which files you would like to add to each specific commit so that you can create
 	smaller, logical commits if you so desire.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	You can run "git diff --staged" to see what files are different between your staging area
+	and the most recent commit in the repository.  
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	It would be helpful to use branches to keep history organized when you are doing experimental work on your code.
+	Branches allow you to keep maintain different versions of your code and keeps your project organized.
+
+
+How do the diagrams help you visualize the branch structure?
+	
+	The diagrams help to visualize which commits are accessible from each branch and will shown with "git log".
+
+
+What is the result of merging two branches together? Why do we reperesent it in the diagram the way we do?
+
+	Merging two branches together combines two separate branches into one. We represent it in the diagram the 
+	way we do because we want to show that the commit history is still accessible after merging.
 

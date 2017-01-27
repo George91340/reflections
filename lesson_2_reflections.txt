@@ -36,3 +36,12 @@ What is the result of merging two branches together? Why do we reperesent it in 
 	Merging two branches together combines two separate branches into one. We represent it in the diagram the 
 	way we do because we want to show that the commit history is still accessible after merging.
 
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+	Pros: 
+		1. Simplfied process.
+		2. Faster
+	Cons:
+		1. Potential merge conflics.
+		2. Slower.

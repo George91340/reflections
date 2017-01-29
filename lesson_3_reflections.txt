@@ -11,3 +11,12 @@ up-to-date with your remote respository?
 	It is a better idea to pull changes from your remote repository manually instead of automatically
 	because you might not want to have everything on your local machine to be made public if it is not 
 	ready to be deployed.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	
+	Branches is an action taken on a the same repository, all of the files are copied under a different
+	commit label. Cloning and forking a repository is very similar, the difference being that forking is
+	a tool on Github and it is used specifically for cloning an exising GitHub project into your own 
+	profile. You would want to use fork when you would like to access someone else's project on GitHub
+	who you do not have commit access to. You would use cloning in all other cases.

@@ -34,3 +34,14 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 	Short answer: use a different svn tool. Long answer: Plan all of the components of the code out and 
 	assign a component to each collaborator. Then share and merge code via zip files. It would be hardest
 	to merge the code.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits 
+does each approach have?
+
+	You would want to make changes in a separate branch rather than directly in master when you are adding
+	new features or doing anything exeperimental that might break code on the master branch. The benefits of 
+	working directly on master branch is that all changes are made are immediately effective and there is no 
+	need to deal with merge requests. The benefits of making changes in a different branch is that you are 
+	free to experiment with the code and make any changes you like without the fear of breaking the code on 
+	the master branch.

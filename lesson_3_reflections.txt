@@ -20,3 +20,10 @@ Describe the differences between forks, clones, and branches. When would you use
 	a tool on Github and it is used specifically for cloning an exising GitHub project into your own 
 	profile. You would want to use fork when you would like to access someone else's project on GitHub
 	who you do not have commit access to. You would use cloning in all other cases.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	If you have a copy of the last known state of the remote stored locally, you can work offline and have
+	those changes accessible to you. You can also run a diff to see what has changed so far compared to your
+	current working state.

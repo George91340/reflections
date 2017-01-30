@@ -27,3 +27,10 @@ What is the benefit of having a copy of the last known state of the remote store
 	If you have a copy of the last known state of the remote stored locally, you can work offline and have
 	those changes accessible to you. You can also run a diff to see what has changed so far compared to your
 	current working state.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Short answer: use a different svn tool. Long answer: Plan all of the components of the code out and 
+	assign a component to each collaborator. Then share and merge code via zip files. It would be hardest
+	to merge the code.
